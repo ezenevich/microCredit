@@ -1,0 +1,72 @@
+.credit-bg{
+  position: absolute;
+  top: 20%;
+  left: 48%;
+}
+
+.pay-bg{
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  width: 90%;
+  height: 76%;
+  z-index: -2;
+}
+.pay-bg-grad{
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  width: 90%;
+  height: 76%;
+  z-index: -1;
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 10%, rgba(0,212,255,0) 100%);
+}
+
+.credit-footer{
+  position: relative;
+  margin-top: 40%;
+}
+.pay-footer{
+  position: relative;
+  margin-top: 24%;
+}
+
+.tabOrder{
+  margin: auto;
+  width: 90%;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+}
+.tabOrder th  {
+  text-shadow: 1px 1px 5px white;
+  font-size: 25px;
+}
+.tabOrder tr:first-of-type{
+  border: 2px solid white;
+  box-shadow: 1px 1px 2px black;
+}
+.tabOrder td  {
+  text-align: center;
+  border-bottom: 2px solid white;
+  text-shadow: 1px 1px 5px white;
+  font-size: 23px;
+}
+
+.pay-form{
+  margin-left: 10%;
+}
+
+.pay-btn{
+  margin-left: 8%;
+}
+
+.pay-select{
+  margin-left: 16%;
+}
+
+.pay-exit-btn{
+  position: absolute;
+  top: 2%;
+  right: 5%;
+}

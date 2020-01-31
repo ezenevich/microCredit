@@ -1,0 +1,76 @@
+.login-form{
+  position: absolute;
+  top: 55%;
+  left: 25%;
+  width: 600px;
+  height: 200px;
+  transform: translate(-50%, -50%);
+}
+
+.login-btn{
+  margin-left: 75%;
+}
+
+.login-footer{
+  position: absolute;
+  margin-top: 38%;
+  background-color: #222;
+}
+
+.login-reg-btn{
+  position: absolute;
+  top: 3%;
+  right: 15%;
+}
+
+.login-exit-btn{
+  position: absolute;
+  top: 3%;
+  right: 5%;
+}
+
+.login-bg{
+  position: absolute;
+  width: 80%;
+  height: 70%;
+  top: 14%;
+  right: 5%;
+  z-index: -2;
+}
+
+.login-bg-grad{
+  position: absolute;
+  width: 80%;
+  height: 70%;
+  top: 14%;
+  right: 5%;
+  z-index: -1;
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 40%, rgba(0,212,255,0) 90%);
+}
+
+input[type="email"]{
+  border: none;
+  border-bottom: 1px solid grey;
+  outline:none;
+  width: 285px;
+  height: 35px;
+  font-size: 20px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+
+.reg-form{
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  width: 600px;
+  height: 200px;
+  transform: translate(-50%, -50%);
+}
+
+.reg-btn{
+  margin-top: 20px;
+  margin-left: 140px;
+}
+
